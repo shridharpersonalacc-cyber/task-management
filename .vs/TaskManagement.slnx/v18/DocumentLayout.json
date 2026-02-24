@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects\\TaskManagement\\TaskManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47BC6E69-198B-7419-A318-97FD0A878FA2}|TaskManagement.Server\\TaskManagement.Server.csproj|f:\\projects\\taskmanagement\\taskmanagement\\taskmanagement.server\\design-pattern\\all-design-pattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BC6E69-198B-7419-A318-97FD0A878FA2}|TaskManagement.Server\\TaskManagement.Server.csproj|solutionrelative:taskmanagement.server\\design-pattern\\all-design-pattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "All-Design-Pattern.cs",
+              "DocumentMoniker": "F:\\Projects\\TaskManagement\\TaskManagement\\TaskManagement.Server\\Design-Pattern\\All-Design-Pattern.cs",
+              "RelativeDocumentMoniker": "TaskManagement.Server\\Design-Pattern\\All-Design-Pattern.cs",
+              "ToolTip": "F:\\Projects\\TaskManagement\\TaskManagement\\TaskManagement.Server\\Design-Pattern\\All-Design-Pattern.cs",
+              "RelativeToolTip": "TaskManagement.Server\\Design-Pattern\\All-Design-Pattern.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:07:39.545Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

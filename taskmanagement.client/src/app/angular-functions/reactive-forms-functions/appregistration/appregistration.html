@@ -1,0 +1,38 @@
+<form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+
+    <input formControlName="username" placeholder="Username" /><br /><br />
+    <span *ngIf="registrationForm.get('password')?.errors?.['weakPassword']"></span>
+    <div *ngIf="registrationForm.get('username')?.errors?.['usernameTaken']">
+        Username already taken
+    </div>
+
+    <input formControlName="email" placeholder="Email" /><br /><br />
+
+    <input type="password" formControlName="password" placeholder="Password" />
+    <div *ngIf="registrationForm.get('password')?.errors?.['weakPassword']">
+        Must contain capital letter and number
+    </div>
+
+    <input type="password" formControlName="confirmPassword" placeholder="Confirm Password" /> <br /><br />
+
+    <div formGroupName="address">
+        <input formControlName="street" placeholder="Street" />
+        <input formControlName="city" placeholder="City" />
+        <input formControlName="zip" placeholder="Zip" />
+    </div>
+
+    <div formArrayName="skills">
+        <div *ngFor="let skill of skills.controls; let i = index">
+            <input [formControlName]="i" placeholder="Skill" />
+            <button type="button" (click)="removeSkill(i)">Remove</button>
+        </div>
+    </div>
+
+    <button type="button" (click)="addSkill()">Add Skill</button>
+
+    <input type="checkbox" formControlName="acceptTerms" />
+    Accept Terms
+
+    <button type="submit">Submit</button>
+    <button type="button" (click)="resetForm()">Reset</button>
+</form>
